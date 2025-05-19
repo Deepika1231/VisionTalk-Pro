@@ -1,0 +1,8 @@
+flask
+opencv-python
+tensorflow
+gtts
+speechrecognition
+transformers
+pyttsx3
+langchain
