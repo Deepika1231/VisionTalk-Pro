@@ -1,8 +1,9 @@
-flask
-opencv-python
-tensorflow
-gtts
-speechrecognition
+# requirements.txt
+Flask
 transformers
-pyttsx3
-langchain
+torch
+Pillow
+SpeechRecognition
+gTTS
+playsound
+uuid
