@@ -1,8 +1,8 @@
 # visiontalk/app.py
 from flask import Flask, render_template, request, jsonify
-from caption_generator import generate_caption
-from image_qa import answer_question
-from voice_io import speak, transcribe
+from utils.image_captioning import generate_caption
+from utils.question_answering import answer_question
+from utils.voice_assistant import speak, transcribe
 import os
 
 app = Flask(__name__)
