@@ -1,1 +1,59 @@
-/* Custom styles */
+/* static/css/style.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f8ff;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #3c5fa6;
+}
+
+input[type="file"] {
+  margin: 15px 0;
+}
+
+button {
+  background-color: #3c5fa6;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2b4c85;
+}
+
+img {
+  max-width: 100%;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.qa-section {
+  margin-top: 20px;
+}
+
+#question {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
